@@ -1,18 +1,12 @@
-<h1>This is a short bio of myself</h1>
-<ol>
-  <li>Who I am</li>
+# This is a short bio of myself
 
-<h2>Where am I from?</h2>
+## Who I am
 Hey! My name is Vanessa and I am from Peru.
-<h2>Background/h2>
 I studied economics and have experience in macroeconomic policy and finance.
-<h2>Interests</h2>
 Right now, I am a first year MIDP student and I am interested in education policy and poverty alleviation.
 
- <li>Something I read</li>
-I was reading this article from [UNESCO](https://www.unesco.org/en/articles/key-data-girls-and-womens-right-education) and is really interesting.
+## Something I read recently
+I was reading this article from UNESCO: https://www.unesco.org/en/articles/key-data-girls-and-womens-right-education
 
-<li>Somewheren to go</li>
-![I would like to go to this place one day, it is in Norway!](C:\Users\vanes\Documents\Vanessa\GitHub\Rjukan-Norway.jpg "Rjukan Norway")
-  
-</ol>
+## Somewhere I wanna go
+I would like to go to this place one day, it is in Norway: C:\Users\vanes\Documents\Vanessa\GitHub\Rjukan-Norway.jpg
