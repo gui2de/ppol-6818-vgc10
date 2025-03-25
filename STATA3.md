@@ -117,7 +117,7 @@ Figure 4: ![My Picture](Distribution_5000to1000000.jpg)
 - The graph typically shows a clear inverse relationship: as sample size increases, the SEM decreases.
 - For very small N, the SEM is high; as N grows to millions, the SEM becomes extremely small, leading to very narrow confidence intervals
 
-Figure 5: ![My Picture](SEM variation.jpg)
+Figure 5: ![My Picture](SEM.jpg)
 
 ### Confidence Interval Width 
 - The graph plots the average width of the confidence interval against sample size.
@@ -125,7 +125,7 @@ Figure 5: ![My Picture](SEM variation.jpg)
 - With increasing sample size, the CI width decreases. This is expected because more data leads to a more precise estimate with less uncertainty.
 - This plot makes it apparent that the benefits of having a larger sample are especially pronounced when moving from very small samples to moderate or large samples.
 
-Figure 6: ![My Picture](Confidence Interval Width.jpg)
+Figure 6: ![My Picture](CI.jpg)
 
 ### Conclusions
 
