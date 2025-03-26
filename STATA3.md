@@ -21,19 +21,19 @@
 - In smaller samples (e.g., N = 10), the box (which represents the interquartile range) and whiskers are likely to be more spread out, indicating high variability.
 - In larger samples (e.g., N = 10,000), the boxplot should be much tighter and centered closer to the true value, illustrating increased precision.
 
-Figure 1: ![My Picture](Boxplot1.jpg)
+Figure 1: ![My Picture](/Part1/Boxplot1.jpg)
 
 ### Density Graph
 - This graph overlays kernel density estimates for the beta estimates from each sample size.
 - You will notice that for N = 10 the density is spread out (more dispersion), whereas for larger sample sizes, the density curve becomes more peaked and narrow around the true value.
 
-Figure 2: ![My Picture](Distribution1.jpg)
+Figure 2: ![My Picture](/Part1/Distribution1.jpg)
 
 ### Variation of the Standard Error (SEM)
 - This section first uses the ***"collapse"*** command to calculate the average standard error (SEM) for the beta estimates for each sample size.
 - The resulting graph (a scatter plot with a connecting line) illustrates how the average SEM decreases as the sample size increases—consistent with the statistical theory that larger samples yield more precise estimations.
 
-Figure 3: ![My Picture](SEM1.jpg)
+Figure 3: ![My Picture](/Part1/SEM1.jpg)
 
 ### Conclusions
 **1. Effect of Sample Size on Estimation Precision:** The summary table and boxplot demonstrate that with small samples (N = 10) the beta estimates exhibit high variability and are less precise. As the sample size increases, the beta estimates become more concentrated around the true value, and the standard deviation of these estimates decreases.
@@ -96,7 +96,7 @@ This table provides numerical evidence for the law of large numbers: with larger
 - The box’s central line indicates the median, while the upper and lower edges of the box represent the first and third quartiles (Q1 and Q3).
 - “Whiskers” extend from the box to depict the range—typically up to 1.5 times the interquartile range—and any points beyond are plotted as outliers.
 
-Figure 4: ![My Picture](Boxplot_Q2.jpg)
+Figure 4: ![My Picture](/Part2/Boxplot_Q2.jpg)
 
 #### Interpretation
 - **Wide Boxes for Small N:** In small samples, expect large boxes and long whiskers, signifying high variability in the beta estimates.
@@ -109,11 +109,11 @@ The boxplot graphically confirms the numerical trends from the summary table. It
 - The kernel density curves, each representing the distribution of beta estimates from simulations at a particular small sample size.
 - We have 3 different density graphs to avoid distortion of the graphs because because we have very different sample sizes from each other.
 
-Figure 5: ![My Picture](Distribution_4to100.jpg)
+Figure 5: ![My Picture](/Part2/Distribution_4to100.jpg)
 
-Figure 6: ![My Picture](Distribution_100to5000.jpg)
+Figure 6: ![My Picture](/Part2/Distribution_100to5000.jpg)
 
-Figure 7: ![My Picture](Distribution_5000to1000000.jpg)
+Figure 7: ![My Picture](/Part2/Distribution_5000to1000000.jpg)
 
 - For very large sample sizes, the density curves become extremely narrow and sharply peaked around 2.
 - The overlapping curves show very little variability, and any differences between the mid-sized and the very large samples are very subtle.
@@ -123,7 +123,7 @@ Figure 7: ![My Picture](Distribution_5000to1000000.jpg)
 - The graph typically shows a clear inverse relationship: as sample size increases, the SEM decreases.
 - For very small N, the SEM is high; as N grows to millions, the SEM becomes extremely small, leading to very narrow confidence intervals
 
-Figure 8: ![My Picture](SEM.jpg)
+Figure 8: ![My Picture](/Part2/SEM.jpg)
 
 ### Confidence Interval Width 
 - The graph plots the average width of the confidence interval against sample size.
@@ -131,18 +131,18 @@ Figure 8: ![My Picture](SEM.jpg)
 - With increasing sample size, the CI width decreases. This is expected because more data leads to a more precise estimate with less uncertainty.
 - This plot makes it apparent that the benefits of having a larger sample are especially pronounced when moving from very small samples to moderate or large samples.
 
-Figure 9: ![My Picture](CI.jpg)
+Figure 9: ![My Picture](/Part2/CI.jpg)
 
 ### Conclusions
 
-#### Comparison to Part 1
+**Comparison to Part 1**
 
-**- Ability to Draw Larger Sample Sizes**
+**Ability to Draw Larger Sample Sizes**
    - In the previous simulation in Part 1, we always drew subsamples from a fixed dataset (with a fixed maximum of 10,000 observations).
    - In this new model, the program generates a fresh dataset each time with the exact sample size we request.
    - As a result, we are not limited by the original population size; we can simulate datasets with millions of observations.
 
-**-  Differences in SEM and Confidence Intervals at Powers-of-Ten Compared to Previous Results**
+**Differences in SEM and Confidence Intervals at Powers-of-Ten Compared to Previous Results**
    - With a fixed, relatively small maximum sample size (e.g., 10,000), the reduction in SEM and the narrowing of the CI were observable but limited to that range.
    - With the new simulation we are ncreasing the sample size and, as a result, the SEM further decreases, and the CIs become even narrower, consistent with the theoretical inverse relationship.
    - The dramatic contrast between the very high variability at small sample sizes and the extremely tight distributions at very large sample sizes is now very apparent.
